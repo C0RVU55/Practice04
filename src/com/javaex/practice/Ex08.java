@@ -10,7 +10,7 @@ public class Ex08 {
 		int num=0;
 		
 		int[] lottoArray=new int[6];
-		
+		/*실패
 		for(int i=0; i<6; i++) {
 			lottoArray[i]=(int)((Math.random()*45)+1);
 			
@@ -18,11 +18,12 @@ public class Ex08 {
 				num=lottoArray[i];
 			}else if(num==lottoArray[i]){
 				i--; //되돌아가기
+				continue;
 			}
 			System.out.print(num+" ");
 		
 		}
-		
+		*/
 		
 		/* 실패
 		int count=1;
